@@ -1,0 +1,8 @@
+LABEL PENTOO64
+MENU LABEL ^Pentoo - x64
+KERNEL er/plugins/pentoo/x86_64/pentoo
+INITRD er/plugins/pentoo/x86_64/pentoo.igz
+APPEND aufs loop=/image.squashfs root=/dev/ram0 init=/linuxrc looptype=squashfs nfsroot=10.0.0.1:/tftpboot/er/shares/pentoo/x86_64 cdroot=0 real_root=/dev/nfs video=uvesafb:mtrr:3,ywrap,1024x768-16
+TEXT HELP
+                 Pentoo Live x64.
+ENDTEXT

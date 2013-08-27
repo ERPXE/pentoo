@@ -1,0 +1,14 @@
+MENU BEGIN PENTOO
+MENU LABEL ^Pentoo 12
+# ------====> Include Menu Settings <====------
+MENU INCLUDE er/menuinc/header.module
+
+# ------====> Set Specific Page Settings <====------
+MENU BACKGROUND er/plugins/pentoo/pentoo.png
+
+MENU INCLUDE er/plugins/pentoo/i386/pentoomain.menu
+MENU INCLUDE er/plugins/pentoo/x86_64/pentoomain.menu
+  
+# ------====> Back <====------
+MENU INCLUDE er/menu/shared/menu-back.module
+MENU END

@@ -1,0 +1,16 @@
+.:
+filelist.txt
+i386
+pentoo.menu
+pentoo.png
+x86_64
+
+./i386:
+pentoo
+pentoo.igz
+pentoomain.menu
+
+./x86_64:
+pentoo
+pentoo.igz
+pentoomain.menu
